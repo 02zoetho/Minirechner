@@ -9,12 +9,12 @@ namespace Minirechner
     {
         static void Main(string[] args)
         {
-            // Addier Methode
+            // Subbtractions Methode
             int a = 100;
             int b = 10;
             int c;
 
-                c=a+b;
+            c = a - b;
         }
     }
 }
