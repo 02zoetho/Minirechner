@@ -12,9 +12,14 @@ namespace Minirechner
             // Subbtractions Methode
             int a = 100;
             int b = 10;
-            int c;
 
-            c = a - b;
+            Subtrahiere(a,b);
+        }
+
+        static int Subtrahiere(int Zahl1, int Zahl2)
+        {
+            Zahl1 = Zahl1 - Zahl2;
+            return Zahl1;
         }
     }
 }
